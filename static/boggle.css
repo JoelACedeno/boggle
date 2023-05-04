@@ -1,0 +1,61 @@
+#boggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    font-family: sans-serif;
+  }
+
+.board {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .score {
+    margin-right: 10px;
+  }
+  
+  .timer {
+    margin-right: 10px;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .word {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .words {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .words li {
+    margin-bottom: 5px;
+  }
+
+  .err {
+    color: red;
+  }
+
+  .ok {
+    color: green;
+  }
